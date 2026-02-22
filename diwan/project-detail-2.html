@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Detail | Robotic Arm End-Effector</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            overflow-y: auto;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Engineering Grid Background -->
+    <div class="grid-background"></div>
+
+    <!-- Navigation (Blueprint Header) -->
+    <header class="blueprint-header" style="position: relative;">
+        <div class="logo-box">
+            <span class="logo-text">DIWAN</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html?skip=true#projects" class="nav-link"><i class="fas fa-arrow-left"></i> BACK TO HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="project-detail-container">
+        <!-- Project Title -->
+        <div class="section-header">
+            <span class="section-idx">PROJECT</span>
+            <h2>ROBOTIC ARM END-EFFECTOR</h2>
+      
+        </div>
+
+        <!-- 3 Image Blocks -->
+        <div class="project-images-grid">
+            <div class="image-block">
+                <div class="image-frame">
+                    <img src="project21.png" alt="End-Effector - View 1">
+                </div>
+              
+            </div>
+            <div class="image-block">
+                <div class="image-frame">
+                    <img src="project22.png" alt="End-Effector - View 2">
+                </div>
+            
+            </div>
+            <div class="image-block">
+                <div class="image-frame">
+                    <img src="project23.jpeg" alt="End-Effector - View 3">
+                </div>
+               
+            </div>
+        </div>
+
+        <!-- Project Description -->
+        <div class="project-description">
+            <div class="description-block">
+                <h3>PROJECT OVERVIEW</h3>
+                <p>Development of a multi-finger adaptive gripper for handling irregular geometric shapes. Stress tested using FEA analysis for optimal performance in industrial automation applications.</p>
+            </div>
+
+            <div class="description-block">
+                <h3>TECHNICAL SPECIFICATIONS</h3>
+                <ul>
+                    <li><strong>Type:</strong> Multi-finger Adaptive Gripper</li>
+                    <li><strong>Fingers:</strong> 3 articulated fingers</li>
+                    <li><strong>Grip Range:</strong> 20mm - 80mm</li>
+                    <li><strong>Force:</strong> Adjustable gripping force</li>
+                    <li><strong>Material:</strong> Aluminum alloy</li>
+                    <li><strong>Analysis:</strong> FEA Stress Testing</li>
+                </ul>
+            </div>
+
+            <div class="description-block">
+                <h3>DESIGN FOCUS</h3>
+                <ul>
+                    <li>Adaptive gripping for irregular shapes</li>
+                    <li>Stress distribution optimization</li>
+                    <li>Lightweight design</li>
+                    <li>Easy maintenance and replacement</li>
+                </ul>
+            </div>
+
+            <div class="description-block">
+                <h3>APPLICATIONS</h3>
+                <p>Suitable for pick-and-place operations, assembly lines, and material handling of irregular objects in industrial automation environments.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bar">
+            <span>© 2026 DIWAN ENGINEERING. ALL RIGHTS RESERVED.</span>
+        </div>
+    </footer>
+
+    <script>
+        // Auto-click ignite button when navigating back to index
+        window.onload = function() {
+            sessionStorage.setItem('returnToProjects', 'true');
+        };
+    </script>
+</body>
+
+</html>

@@ -1101,6 +1101,14 @@ footer {
         width: 100%;
     }
     
+    .bio-visual {
+        order: 1;
+    }
+    
+    .bio-text {
+        order: 2;
+    }
+    
     .code-block {
         padding: 15px;
         font-size: 0.85rem;
@@ -1154,6 +1162,7 @@ footer {
     
     .project-info {
         padding: 20px;
+        text-align: center;
     }
     
     .project-info h3 {
@@ -1162,6 +1171,11 @@ footer {
         overflow-wrap: break-word;
         line-height: 1.3;
         white-space: normal;
+    }
+    
+    .view-link {
+        display: block;
+        margin-top: 10px;
     }
     
     /* Contact Section */
@@ -1470,5 +1484,15 @@ footer {
     
     .image-frame {
         height: 280px;
+    }
+    
+    /* Project Detail Page Title */
+    .project-detail-container .section-header {
+        text-align: center;
+    }
+    
+    .project-detail-container .section-header h2 {
+        text-align: center;
+        font-size: 1rem;
     }
 }

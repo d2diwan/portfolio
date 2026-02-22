@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Detail | Fire Extinguisher Drone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            overflow-y: auto;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Engineering Grid Background -->
+    <div class="grid-background"></div>
+
+    <!-- Navigation (Blueprint Header) -->
+    <header class="blueprint-header" style="position: relative;">
+        <div class="logo-box">
+            <span class="logo-text">DIWAN</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html?skip=true#projects" class="nav-link"><i class="fas fa-arrow-left"></i> BACK TO HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="project-detail-container">
+        <!-- Project Title -->
+        <div class="section-header">
+            <span class="section-idx">PROJECT</span>
+            <h2>FIRE EXTINGUISHER DRONE</h2>
+     
+        </div>
+
+        <!-- 3 Image Blocks -->
+        <div class="project-images-grid">
+            <div class="image-block">
+                <div class="image-frame">
+                    <img src="project33.jpeg" alt="Drone - View 1">
+                </div>
+              
+            </div>
+            <div class="image-block">
+                <div class="image-frame">
+                    <img src="project31.png" alt="Drone - View 2">
+                </div>
+     
+            </div>
+            <div class="image-block">
+                <div class="image-frame">
+                    <img src="project32.png" alt="Drone - View 3">
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Description -->
+        <div class="project-description">
+            <div class="description-block">
+                <h3>PROJECT OVERVIEW</h3>
+                <p>Designed an autonomous fire extinguisher drone system for emergency response in hazardous environments. The drone can navigate through complex spaces to deliver fire suppression agents precisely where needed.</p>
+            </div>
+
+            <div class="description-block">
+                <h3>TECHNICAL SPECIFICATIONS</h3>
+                <ul>
+                    <li><strong>Type:</strong> Quadcopter Drone</li>
+                    <li><strong>Payload:</strong> Fire extinguisher module</li>
+                    <li><strong>Flight Time:</strong> 25 minutes</li>
+                    <li><strong>Range:</strong> 500m control distance</li>
+                    <li><strong>Camera:</strong> FPV + Thermal imaging</li>
+                    <li><strong>Material:</strong> Carbon fiber frame</li>
+                </ul>
+            </div>
+
+            <div class="description-block">
+                <h3>DESIGN FOCUS</h3>
+                <ul>
+                    <li>Autonomous navigation</li>
+                    <li>Thermal sensor integration</li>
+                    <li>Precision dropping mechanism</li>
+                    <li>Stable flight in wind</li>
+                </ul>
+            </div>
+
+            <div class="description-block">
+                <h3>APPLICATIONS</h3>
+                <p>Industrial fire safety, warehouse fire response, forest fire monitoring, and hazardous material incident response.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bar">
+            <span>© 2026 DIWAN ENGINEERING. ALL RIGHTS RESERVED.</span>
+        </div>
+    </footer>
+
+    <script>
+        // Auto-click ignite button when navigating back to index
+        window.onload = function() {
+            sessionStorage.setItem('returnToProjects', 'true');
+        };
+    </script>
+</body>
+
+</html>

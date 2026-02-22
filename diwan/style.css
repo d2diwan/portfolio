@@ -1488,11 +1488,11 @@ footer {
     
     /* Project Detail Page Title */
     .project-detail-container .section-header {
-        text-align: center;
+        text-align: left;
     }
     
     .project-detail-container .section-header h2 {
-        text-align: center;
+        text-align: left;
         font-size: 1rem;
     }
 }
